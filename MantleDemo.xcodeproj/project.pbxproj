@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F5E8891BDBC06C0094F704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8881BDBC06C0094F704 /* main.m */; };
+		D6F5E88C1BDBC06C0094F704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E88B1BDBC06C0094F704 /* AppDelegate.m */; };
+		D6F5E88F1BDBC06C0094F704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E88E1BDBC06C0094F704 /* ViewController.m */; };
+		D6F5E8921BDBC06C0094F704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5E8901BDBC06C0094F704 /* Main.storyboard */; };
+		D6F5E8941BDBC06C0094F704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F5E8931BDBC06C0094F704 /* Assets.xcassets */; };
+		D6F5E8971BDBC06C0094F704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F5E8951BDBC06C0094F704 /* LaunchScreen.storyboard */; };
+		D6F5E8A21BDBC06C0094F704 /* MantleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8A11BDBC06C0094F704 /* MantleDemoTests.m */; };
+		D6F5E8AD1BDBC06C0094F704 /* MantleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8AC1BDBC06C0094F704 /* MantleDemoUITests.m */; };
+		D6F5E8F31BDBC1090094F704 /* StaticMethodDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8F21BDBC1090094F704 /* StaticMethodDescription.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E8F61BDBC1240094F704 /* GenericType.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8F51BDBC1240094F704 /* GenericType.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E8F91BDBC1C60094F704 /* MantleHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E8F81BDBC1C60094F704 /* MantleHandler.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9261BDBCF260094F704 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9041BDBCF260094F704 /* EXTRuntimeExtensions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9271BDBCF260094F704 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9061BDBCF260094F704 /* EXTScope.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9281BDBCF260094F704 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6F5E9081BDBCF260094F704 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9291BDBCF260094F704 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E90B1BDBCF260094F704 /* MTLJSONAdapter.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92A1BDBCF260094F704 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E90D1BDBCF260094F704 /* MTLModel+NSCoding.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92B1BDBCF260094F704 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E90F1BDBCF260094F704 /* MTLModel.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92C1BDBCF260094F704 /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9111BDBCF260094F704 /* MTLReflection.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92D1BDBCF260094F704 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9131BDBCF260094F704 /* MTLTransformerErrorHandling.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92E1BDBCF260094F704 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9151BDBCF260094F704 /* MTLValueTransformer.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E92F1BDBCF260094F704 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9171BDBCF260094F704 /* NSArray+MTLManipulationAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9301BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9191BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9311BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E91B1BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9321BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E91D1BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9331BDBCF260094F704 /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E91F1BDBCF260094F704 /* NSError+MTLModelException.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9341BDBCF260094F704 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9211BDBCF260094F704 /* NSObject+MTLComparisonAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9351BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9231BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		D6F5E9361BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F5E9251BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F5E89E1BDBC06C0094F704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F5E87C1BDBC06C0094F704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F5E8831BDBC06C0094F704;
+			remoteInfo = MantleDemo;
+		};
+		D6F5E8A91BDBC06C0094F704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F5E87C1BDBC06C0094F704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F5E8831BDBC06C0094F704;
+			remoteInfo = MantleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F5E8841BDBC06C0094F704 /* MantleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5E8881BDBC06C0094F704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F5E88A1BDBC06C0094F704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6F5E88B1BDBC06C0094F704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6F5E88D1BDBC06C0094F704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6F5E88E1BDBC06C0094F704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6F5E8911BDBC06C0094F704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F5E8931BDBC06C0094F704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F5E8961BDBC06C0094F704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F5E8981BDBC06C0094F704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5E89D1BDBC06C0094F704 /* MantleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5E8A11BDBC06C0094F704 /* MantleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantleDemoTests.m; sourceTree = "<group>"; };
+		D6F5E8A31BDBC06C0094F704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5E8A81BDBC06C0094F704 /* MantleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F5E8AC1BDBC06C0094F704 /* MantleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MantleDemoUITests.m; sourceTree = "<group>"; };
+		D6F5E8AE1BDBC06C0094F704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5E8F11BDBC1090094F704 /* StaticMethodDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticMethodDescription.h; sourceTree = "<group>"; };
+		D6F5E8F21BDBC1090094F704 /* StaticMethodDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticMethodDescription.m; sourceTree = "<group>"; };
+		D6F5E8F41BDBC1240094F704 /* GenericType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericType.h; sourceTree = "<group>"; };
+		D6F5E8F51BDBC1240094F704 /* GenericType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericType.m; sourceTree = "<group>"; };
+		D6F5E8F71BDBC1C60094F704 /* MantleHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleHandler.h; sourceTree = "<group>"; };
+		D6F5E8F81BDBC1C60094F704 /* MantleHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleHandler.m; sourceTree = "<group>"; };
+		D6F5E9021BDBCF260094F704 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		D6F5E9031BDBCF260094F704 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		D6F5E9041BDBCF260094F704 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		D6F5E9051BDBCF260094F704 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		D6F5E9061BDBCF260094F704 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		D6F5E9071BDBCF260094F704 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		D6F5E9081BDBCF260094F704 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F5E9091BDBCF260094F704 /* Mantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mantle.h; sourceTree = "<group>"; };
+		D6F5E90A1BDBCF260094F704 /* MTLJSONAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLJSONAdapter.h; sourceTree = "<group>"; };
+		D6F5E90B1BDBCF260094F704 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLJSONAdapter.m; sourceTree = "<group>"; };
+		D6F5E90C1BDBCF260094F704 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		D6F5E90D1BDBCF260094F704 /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		D6F5E90E1BDBCF260094F704 /* MTLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLModel.h; sourceTree = "<group>"; };
+		D6F5E90F1BDBCF260094F704 /* MTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLModel.m; sourceTree = "<group>"; };
+		D6F5E9101BDBCF260094F704 /* MTLReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLReflection.h; sourceTree = "<group>"; };
+		D6F5E9111BDBCF260094F704 /* MTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLReflection.m; sourceTree = "<group>"; };
+		D6F5E9121BDBCF260094F704 /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		D6F5E9131BDBCF260094F704 /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		D6F5E9141BDBCF260094F704 /* MTLValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLValueTransformer.h; sourceTree = "<group>"; };
+		D6F5E9151BDBCF260094F704 /* MTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTLValueTransformer.m; sourceTree = "<group>"; };
+		D6F5E9161BDBCF260094F704 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		D6F5E9171BDBCF260094F704 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		D6F5E9181BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		D6F5E9191BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		D6F5E91A1BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		D6F5E91B1BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		D6F5E91C1BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		D6F5E91D1BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		D6F5E91E1BDBCF260094F704 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		D6F5E91F1BDBCF260094F704 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		D6F5E9201BDBCF260094F704 /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		D6F5E9211BDBCF260094F704 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		D6F5E9221BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		D6F5E9231BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		D6F5E9241BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		D6F5E9251BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F5E8811BDBC06C0094F704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E89A1BDBC06C0094F704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E8A51BDBC06C0094F704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F5E87B1BDBC06C0094F704 = {
+			isa = PBXGroup;
+			children = (
+				D6F5E9001BDBCF260094F704 /* Mantle */,
+				D6F5E8861BDBC06C0094F704 /* MantleDemo */,
+				D6F5E8A01BDBC06C0094F704 /* MantleDemoTests */,
+				D6F5E8AB1BDBC06C0094F704 /* MantleDemoUITests */,
+				D6F5E8851BDBC06C0094F704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F5E8851BDBC06C0094F704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E8841BDBC06C0094F704 /* MantleDemo.app */,
+				D6F5E89D1BDBC06C0094F704 /* MantleDemoTests.xctest */,
+				D6F5E8A81BDBC06C0094F704 /* MantleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F5E8861BDBC06C0094F704 /* MantleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E88A1BDBC06C0094F704 /* AppDelegate.h */,
+				D6F5E88B1BDBC06C0094F704 /* AppDelegate.m */,
+				D6F5E88D1BDBC06C0094F704 /* ViewController.h */,
+				D6F5E88E1BDBC06C0094F704 /* ViewController.m */,
+				D6F5E8F71BDBC1C60094F704 /* MantleHandler.h */,
+				D6F5E8F81BDBC1C60094F704 /* MantleHandler.m */,
+				D6F5E8F11BDBC1090094F704 /* StaticMethodDescription.h */,
+				D6F5E8F21BDBC1090094F704 /* StaticMethodDescription.m */,
+				D6F5E8F41BDBC1240094F704 /* GenericType.h */,
+				D6F5E8F51BDBC1240094F704 /* GenericType.m */,
+				D6F5E8901BDBC06C0094F704 /* Main.storyboard */,
+				D6F5E8931BDBC06C0094F704 /* Assets.xcassets */,
+				D6F5E8951BDBC06C0094F704 /* LaunchScreen.storyboard */,
+				D6F5E8981BDBC06C0094F704 /* Info.plist */,
+				D6F5E8871BDBC06C0094F704 /* Supporting Files */,
+			);
+			path = MantleDemo;
+			sourceTree = "<group>";
+		};
+		D6F5E8871BDBC06C0094F704 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E8881BDBC06C0094F704 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F5E8A01BDBC06C0094F704 /* MantleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E8A11BDBC06C0094F704 /* MantleDemoTests.m */,
+				D6F5E8A31BDBC06C0094F704 /* Info.plist */,
+			);
+			path = MantleDemoTests;
+			sourceTree = "<group>";
+		};
+		D6F5E8AB1BDBC06C0094F704 /* MantleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E8AC1BDBC06C0094F704 /* MantleDemoUITests.m */,
+				D6F5E8AE1BDBC06C0094F704 /* Info.plist */,
+			);
+			path = MantleDemoUITests;
+			sourceTree = "<group>";
+		};
+		D6F5E9001BDBCF260094F704 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E9011BDBCF260094F704 /* extobjc */,
+				D6F5E9081BDBCF260094F704 /* Info.plist */,
+				D6F5E9091BDBCF260094F704 /* Mantle.h */,
+				D6F5E90A1BDBCF260094F704 /* MTLJSONAdapter.h */,
+				D6F5E90B1BDBCF260094F704 /* MTLJSONAdapter.m */,
+				D6F5E90C1BDBCF260094F704 /* MTLModel+NSCoding.h */,
+				D6F5E90D1BDBCF260094F704 /* MTLModel+NSCoding.m */,
+				D6F5E90E1BDBCF260094F704 /* MTLModel.h */,
+				D6F5E90F1BDBCF260094F704 /* MTLModel.m */,
+				D6F5E9101BDBCF260094F704 /* MTLReflection.h */,
+				D6F5E9111BDBCF260094F704 /* MTLReflection.m */,
+				D6F5E9121BDBCF260094F704 /* MTLTransformerErrorHandling.h */,
+				D6F5E9131BDBCF260094F704 /* MTLTransformerErrorHandling.m */,
+				D6F5E9141BDBCF260094F704 /* MTLValueTransformer.h */,
+				D6F5E9151BDBCF260094F704 /* MTLValueTransformer.m */,
+				D6F5E9161BDBCF260094F704 /* NSArray+MTLManipulationAdditions.h */,
+				D6F5E9171BDBCF260094F704 /* NSArray+MTLManipulationAdditions.m */,
+				D6F5E9181BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.h */,
+				D6F5E9191BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.m */,
+				D6F5E91A1BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.h */,
+				D6F5E91B1BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.m */,
+				D6F5E91C1BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.h */,
+				D6F5E91D1BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.m */,
+				D6F5E91E1BDBCF260094F704 /* NSError+MTLModelException.h */,
+				D6F5E91F1BDBCF260094F704 /* NSError+MTLModelException.m */,
+				D6F5E9201BDBCF260094F704 /* NSObject+MTLComparisonAdditions.h */,
+				D6F5E9211BDBCF260094F704 /* NSObject+MTLComparisonAdditions.m */,
+				D6F5E9221BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.h */,
+				D6F5E9231BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.m */,
+				D6F5E9241BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				D6F5E9251BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		D6F5E9011BDBCF260094F704 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5E9021BDBCF260094F704 /* EXTKeyPathCoding.h */,
+				D6F5E9031BDBCF260094F704 /* EXTRuntimeExtensions.h */,
+				D6F5E9041BDBCF260094F704 /* EXTRuntimeExtensions.m */,
+				D6F5E9051BDBCF260094F704 /* EXTScope.h */,
+				D6F5E9061BDBCF260094F704 /* EXTScope.m */,
+				D6F5E9071BDBCF260094F704 /* metamacros.h */,
+			);
+			path = extobjc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F5E8831BDBC06C0094F704 /* MantleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5E8B11BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemo" */;
+			buildPhases = (
+				D6F5E8801BDBC06C0094F704 /* Sources */,
+				D6F5E8811BDBC06C0094F704 /* Frameworks */,
+				D6F5E8821BDBC06C0094F704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantleDemo;
+			productName = MantleDemo;
+			productReference = D6F5E8841BDBC06C0094F704 /* MantleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F5E89C1BDBC06C0094F704 /* MantleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5E8B41BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemoTests" */;
+			buildPhases = (
+				D6F5E8991BDBC06C0094F704 /* Sources */,
+				D6F5E89A1BDBC06C0094F704 /* Frameworks */,
+				D6F5E89B1BDBC06C0094F704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F5E89F1BDBC06C0094F704 /* PBXTargetDependency */,
+			);
+			name = MantleDemoTests;
+			productName = MantleDemoTests;
+			productReference = D6F5E89D1BDBC06C0094F704 /* MantleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F5E8A71BDBC06C0094F704 /* MantleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F5E8B71BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemoUITests" */;
+			buildPhases = (
+				D6F5E8A41BDBC06C0094F704 /* Sources */,
+				D6F5E8A51BDBC06C0094F704 /* Frameworks */,
+				D6F5E8A61BDBC06C0094F704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F5E8AA1BDBC06C0094F704 /* PBXTargetDependency */,
+			);
+			name = MantleDemoUITests;
+			productName = MantleDemoUITests;
+			productReference = D6F5E8A81BDBC06C0094F704 /* MantleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F5E87C1BDBC06C0094F704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "王展";
+				TargetAttributes = {
+					D6F5E8831BDBC06C0094F704 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D6F5E89C1BDBC06C0094F704 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D6F5E8831BDBC06C0094F704;
+					};
+					D6F5E8A71BDBC06C0094F704 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D6F5E8831BDBC06C0094F704;
+					};
+				};
+			};
+			buildConfigurationList = D6F5E87F1BDBC06C0094F704 /* Build configuration list for PBXProject "MantleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F5E87B1BDBC06C0094F704;
+			productRefGroup = D6F5E8851BDBC06C0094F704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F5E8831BDBC06C0094F704 /* MantleDemo */,
+				D6F5E89C1BDBC06C0094F704 /* MantleDemoTests */,
+				D6F5E8A71BDBC06C0094F704 /* MantleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F5E8821BDBC06C0094F704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5E9281BDBCF260094F704 /* Info.plist in Resources */,
+				D6F5E8971BDBC06C0094F704 /* LaunchScreen.storyboard in Resources */,
+				D6F5E8941BDBC06C0094F704 /* Assets.xcassets in Resources */,
+				D6F5E8921BDBC06C0094F704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E89B1BDBC06C0094F704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E8A61BDBC06C0094F704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F5E8801BDBC06C0094F704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5E9271BDBCF260094F704 /* EXTScope.m in Sources */,
+				D6F5E92F1BDBCF260094F704 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				D6F5E9291BDBCF260094F704 /* MTLJSONAdapter.m in Sources */,
+				D6F5E92A1BDBCF260094F704 /* MTLModel+NSCoding.m in Sources */,
+				D6F5E8F91BDBC1C60094F704 /* MantleHandler.m in Sources */,
+				D6F5E9311BDBCF260094F704 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				D6F5E9361BDBCF260094F704 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				D6F5E8F61BDBC1240094F704 /* GenericType.m in Sources */,
+				D6F5E9321BDBCF260094F704 /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				D6F5E92E1BDBCF260094F704 /* MTLValueTransformer.m in Sources */,
+				D6F5E9301BDBCF260094F704 /* NSDictionary+MTLJSONKeyPath.m in Sources */,
+				D6F5E88F1BDBC06C0094F704 /* ViewController.m in Sources */,
+				D6F5E9331BDBCF260094F704 /* NSError+MTLModelException.m in Sources */,
+				D6F5E92C1BDBCF260094F704 /* MTLReflection.m in Sources */,
+				D6F5E92D1BDBCF260094F704 /* MTLTransformerErrorHandling.m in Sources */,
+				D6F5E9341BDBCF260094F704 /* NSObject+MTLComparisonAdditions.m in Sources */,
+				D6F5E9261BDBCF260094F704 /* EXTRuntimeExtensions.m in Sources */,
+				D6F5E88C1BDBC06C0094F704 /* AppDelegate.m in Sources */,
+				D6F5E8891BDBC06C0094F704 /* main.m in Sources */,
+				D6F5E9351BDBCF260094F704 /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				D6F5E8F31BDBC1090094F704 /* StaticMethodDescription.m in Sources */,
+				D6F5E92B1BDBCF260094F704 /* MTLModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E8991BDBC06C0094F704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5E8A21BDBC06C0094F704 /* MantleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5E8A41BDBC06C0094F704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F5E8AD1BDBC06C0094F704 /* MantleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F5E89F1BDBC06C0094F704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F5E8831BDBC06C0094F704 /* MantleDemo */;
+			targetProxy = D6F5E89E1BDBC06C0094F704 /* PBXContainerItemProxy */;
+		};
+		D6F5E8AA1BDBC06C0094F704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F5E8831BDBC06C0094F704 /* MantleDemo */;
+			targetProxy = D6F5E8A91BDBC06C0094F704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F5E8901BDBC06C0094F704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F5E8911BDBC06C0094F704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F5E8951BDBC06C0094F704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F5E8961BDBC06C0094F704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F5E8AF1BDBC06C0094F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6F5E8B01BDBC06C0094F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F5E8B21BDBC06C0094F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MantleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6F5E8B31BDBC06C0094F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MantleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6F5E8B51BDBC06C0094F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MantleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantleDemo.app/MantleDemo";
+			};
+			name = Debug;
+		};
+		D6F5E8B61BDBC06C0094F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MantleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantleDemo.app/MantleDemo";
+			};
+			name = Release;
+		};
+		D6F5E8B81BDBC06C0094F704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MantleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MantleDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D6F5E8B91BDBC06C0094F704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MantleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangzhan.MantleDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MantleDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F5E87F1BDBC06C0094F704 /* Build configuration list for PBXProject "MantleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5E8AF1BDBC06C0094F704 /* Debug */,
+				D6F5E8B01BDBC06C0094F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5E8B11BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5E8B21BDBC06C0094F704 /* Debug */,
+				D6F5E8B31BDBC06C0094F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5E8B41BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5E8B51BDBC06C0094F704 /* Debug */,
+				D6F5E8B61BDBC06C0094F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F5E8B71BDBC06C0094F704 /* Build configuration list for PBXNativeTarget "MantleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F5E8B81BDBC06C0094F704 /* Debug */,
+				D6F5E8B91BDBC06C0094F704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F5E87C1BDBC06C0094F704 /* Project object */;
+}
